@@ -1,0 +1,95 @@
+body{
+    background-color: #eeeeee;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family:'Lucida Grande',
+ 'Hiragino Maru Gothic ProN', 'ÉqÉâÉMÉmä€ÉS ProN W4',
+ "ÉÇÉgÉÑLÉ}ÉãÉxÉä3ìôïù", MotoyaLMaru, Meiryo, ÉÅÉCÉäÉI, sans-serif;
+    line-height: 150%;
+}
+
+div#paper{
+    width: 800px;
+    background-color: #ffffff;
+    border-left: 1px solid #111111;
+    border-right: 1px solid #111111;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    height: 100%;
+    min-height:100%;
+}
+
+div#paper h1{
+    margin-top: 20px;
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: normal;
+}
+
+div#paper #caption{
+    margin: 0 auto;
+    width: 720px;
+    margin-bottom: 10px;
+}
+
+div#paper div h2{
+    display: inline;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+div#paper div#votes fieldset{
+    border-bottom: 1px dotted #111111;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+div#paper div#votes fieldset input.number{
+    width: 40px;
+    margin-right: 20px;
+}
+
+div#paper div#votes fieldset input.evaluation{
+    width: 120px;
+    margin-right: 20px;
+}
+
+div#paper div#votes fieldset textarea{
+    width: 100%;
+}
+
+div#paper  h3{
+    display: inline;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+div#paper div#personalinfo h2, label{
+    margin-right: 10px;
+}
+
+div#paper p{
+    display: inline;
+}
+
+div#paper div#personalinfo,div#votes,div#opinion,div#submit{
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+div#paper div#personalinfo,div#votes,div#opinion{
+    border-bottom: 1px solid #111111;
+}
+
+div#paper div#votes p#buttons{
+    display: block;
+}
+
+div#paper div#opinion textarea{
+    width: 100%;
+}
