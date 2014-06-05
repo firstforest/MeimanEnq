@@ -12,6 +12,9 @@ angular.module('enqApp', [
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/thanks', {
+        templateUrl: 'views/thanks.html',
+      })
       .otherwise({
         redirectTo: '/'
       });
