@@ -1,6 +1,10 @@
 {
   "name": "enq",
   "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firstforest/MeimenEnq.git"
+    },
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
